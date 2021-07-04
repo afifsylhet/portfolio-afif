@@ -48,3 +48,32 @@ body {
 .intro-half img{
     width: 80%;
 }
+.divForFlex{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.firstHalf {
+    padding:3%;
+    margin: 5%;
+    box-shadow: 10px 10px 25px black;
+    border-radius: 15px;
+}
+
+#left{
+    border-left: 10px solid;
+    border-image: linear-gradient(purple, green);
+    border-image-slice: 1;
+}
+
+#right{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, gray);
+    border-image-slice: 8;
+}
+
+#center {
+    text-align: center;
+    font-weight: bold;
+}
